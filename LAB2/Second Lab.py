@@ -113,7 +113,6 @@ def radix_sort(arr):
         counting_sort(arr, exp)
         exp *= 10
 
-#radix_sort(arr)
 
 def calculate_execution_time(sort_func, arr):
     start_time = time.time()
