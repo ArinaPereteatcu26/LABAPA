@@ -126,7 +126,7 @@ def plot_graph(execution_times, labels):
     plt.xticks(x, labels)
     plt.ylabel('Execution Time (s)')
     plt.title('Sorting Algorithm Execution Times')
-    plt.tight_layout()
+    plt.tight_layout() 
     plt.show()
 
 sizes = [1000, 2000, 3000, 4000, 5000]
