@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import Algorithms as Algorithms
 import pandas as pd
 
-values = [0, 8, 16, 64, 128, 256, 512]
+values = [4, 8, 16, 32, 64, 128, 256, 512]
 timePrimSparse = []
 timePrimDense = []
 timeKruskalSparse = []

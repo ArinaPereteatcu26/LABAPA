@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import Algorithms
 import pandas as pd
 
-values = [0, 8, 16, 64, 128, 256, 512]
+values = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 130, 140, 150]
 timeDijkstraSparse = []
 timeDijkstraDense = []
 timeFloydWarshallSparse = []
@@ -67,3 +67,4 @@ for i in range(len(values)):
 headers = ["Input Size", 'Dijkstra Sparse', 'Dijkstra Dense', 'Floyd-Warshall Sparse', 'Floyd-Warshall Dense']
 df = pd.DataFrame(data, columns=headers)
 print(df)
+
